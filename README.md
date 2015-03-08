@@ -41,6 +41,9 @@ Results:
 Vulnserver Exploit
 -----------------------------
 
+Vulnserver HTER Crasher: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/crasher.py
+Vulnserver HTER Exploit: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/vulnserver_exploit_calc.py
+
 Finding a "jmp eax" instruction:
 
 ```bash
