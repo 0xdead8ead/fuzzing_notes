@@ -41,8 +41,9 @@ Results:
 Vulnserver Exploit
 -----------------------------
 
-Vulnserver HTER Crasher: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/crasher.py
-Vulnserver HTER Exploit: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/vulnserver_exploit_calc.py
+* Vulnserver HTER Crasher: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/crasher.py
+
+* Vulnserver HTER Exploit: https://github.com/f47h3r/fuzzing_notes/blob/master/results/vulnserver/exploits/vulnserver_exploit_calc.py
 
 Finding a "jmp eax" instruction:
 
@@ -68,3 +69,9 @@ TODO
 * Write Exploit for Vulnserver
 * Setup EFS Server
 * Fuzz EFS Server
+
+
+References
+-----------------
+
+* http://thisisdearmo.blogspot.com/2012/01/stack-based-bof-for-hter-command-in.html

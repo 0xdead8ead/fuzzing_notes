@@ -68,6 +68,7 @@
     <Agent name="LocalAgent">
         <Monitor class="WindowsDebugger">
             <Param name="CommandLine" value="C:\EFS Software\Easy File Sharing Web Server 6.8\fsws.exe"/>
+            <Param name="WinDbgPath" value="C:\windbg" />
         </Monitor>
 
         <!-- close the popup window asking us to buy the software before running tests -->
@@ -80,8 +81,8 @@
         <Agent ref="LocalAgent"/>
         <StateModel ref="StateVfolder"/>
         <Publisher class="TcpClient">
-            <Param name="Host" value="##HOST##"/>
-            <Param name="Port" value="##PORT##"/>
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="80"/>
         </Publisher>
 
         <Logger class="File">
